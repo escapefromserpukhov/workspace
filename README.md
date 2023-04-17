@@ -1,5 +1,8 @@
-# ajs-hw1
-Домашнее задание к лекции «Стандарты и Рабочее окружение»
+# Домашнее задание к лекции «Рабочее окружение»
+
+**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
+
+В личном кабинете на сайте [netology.ru](http://netology.ru/) в поле комментария к домашней работе вставьте ссылки на ваш GitHub-проекты.
 
 ---
 
@@ -22,7 +25,7 @@
 1. author - ваше имя или псевдоним
 1. license - ISC
 
-Добавьте `.gitignore` из набора github: [https://github.com/github/gitignore/blob/master/Node.gitignore](https://github.com/github/gitignore/blob/master/Node.gitignore).
+Добавьте `.gitignore`, который мы для вас [приготовили](../.gitignore).
 
 ---
 
@@ -74,7 +77,6 @@ const characters = [
   {name: 'маг', health: 0},
   {name: 'лучник', health: 0},
 ];
-
 const alive = characters.filter(item => item.health > 0);
 ```
 
@@ -133,7 +135,6 @@ const characters = [
   {name: 'маг', health: 0},
   {name: 'лучник', health: 0}
 ];
-
 const alive = characters.filter(item => item.health > 0);
 ```
 
